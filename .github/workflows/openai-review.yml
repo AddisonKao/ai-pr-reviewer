@@ -23,7 +23,6 @@ jobs:
       - uses: AddisonKao/ai-pr-reviewer@azure_support
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
         with:
           azure_api_instance_name: 'twgenerativeaitaskforceteam2'
